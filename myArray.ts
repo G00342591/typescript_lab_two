@@ -14,11 +14,12 @@ function listAllTasks()
     {
         console.log(item)
     }
-    console.log("\n")
+
 }
 
 function deleteTask(task:String):number
 {
+    console.log("\n")
     let index : number = myArray.indexOf(task);
     if(index > -1)
     {

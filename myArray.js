@@ -10,9 +10,9 @@ function listAllTasks() {
         var item = myArray_1[_i];
         console.log(item);
     }
-    console.log("\n");
 }
 function deleteTask(task) {
+    console.log("\n");
     var index = myArray.indexOf(task);
     if (index > -1) {
         myArray.splice(index, 1);
